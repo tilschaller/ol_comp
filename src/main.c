@@ -30,9 +30,9 @@ int main(int _argc, char **_argv) {
     return 0;
   }
 
-  /*
-
-  TODO: Parser
-
-  */
+  if (comp_opts == COMPILE) {
+    // parser(argv[3])
+  } else if (comp_opts == LINK) {
+    // link
+  }
 }
