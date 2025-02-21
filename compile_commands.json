@@ -1,0 +1,14 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-o",
+      "build/main.c.o",
+      "main.c"
+    ],
+    "directory": "/home/til/dev/comp",
+    "file": "/home/til/dev/comp/main.c",
+    "output": "/home/til/dev/comp/build/main.c.o"
+  }
+]
