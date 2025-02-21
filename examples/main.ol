@@ -1,4 +1,4 @@
-.use :: std
+.use :: std;
 
 i64 main :: i64 ret_value;
 

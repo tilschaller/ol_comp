@@ -1,3 +1,4 @@
+#include "parser.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -41,7 +42,7 @@ int main(int _argc, char **_argv)
 
     if (comp_opts == COMPILE)
     {
-        // parser(argv[3])
+        parse_source_code(argv[3]);
     }
     else if (comp_opts == LINK)
     {

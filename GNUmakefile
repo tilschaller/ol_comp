@@ -10,7 +10,7 @@ OBJS = $(addprefix obj/,$(CFILES:.c=.c.o))
 
 .PHONY: run
 run: bin/$(OUTPUT)
-		./bin/$(OUTPUT) comp examples/main.ol obj/main.ol.o
+		./bin/$(OUTPUT) comp ./obj/main.ol.o ./examples/main.ol
 
 bin/$(OUTPUT): $(OBJS) GNUmakefile
 	mkdir -p "$$(dirname $@)"
