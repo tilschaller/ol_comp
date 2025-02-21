@@ -1,7 +1,8 @@
+#TODO: add header files (src/*.h) to dependencies 
 OUTPUT = olc
 
 CC = gcc
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall -Wextra -O2 -pipe -ggdb
 
 SRCFILES = $(shell cd src && find -L * -type f | LC_ALL=C sort)
 CFILES = $(filter %.c,$(SRCFILES))
